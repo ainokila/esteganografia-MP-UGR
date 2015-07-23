@@ -1,0 +1,39 @@
+/*Archivo de cabecera de la funcion
+codificar y revelar.La primera recibe como argumentos
+una imagen (de la clase Imagen) y un cadena-C
+con el mensaje a ocultar, que procederá posteriormente 
+a guardarlo en la imagen.
+La segunda recibe los mismos argumentos y opera de forma
+inversa,revelando un mensaje previamente escondido.*/
+
+#ifndef _CODIFICAR_
+#define _CODIFICAR_
+
+#include"imagen.h"
+
+/*Declaración de una constante que corresponde
+a bit más a la derecha, en el cual se harán las modificaciones */
+const int cero=0;
+
+
+/*Constante para el tamaño máximo
+de la cadena-C*/
+
+const int TAM_MAX=256;
+
+
+//Metodo codificar
+
+bool ocultar(Imagen &img, char mensaje[]);
+
+
+//Metodo revelar
+
+bool revelar(Imagen img, char mensaje [],const int TAM_MAX);
+
+#endif
+
+	
+	
+
+
