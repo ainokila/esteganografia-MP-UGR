@@ -1,9 +1,6 @@
-# esteganografiaMP 
+# Steganography in C++
 
-Autor : Cristian Velez Ruiz 
+Steganography using a PGM image in black and white with dynamic memory.
 
-Correo:universidadcvr@gmail.com 2015
+![lena.pgm](http://www.ece.rice.edu/~wakin/images/lenaTest3.jpg)
 
-Contacto : www.cristianvelez.es
-
-Esteganografia usando una imagen en blanco y negro PGM junto a memoria dinamica.
